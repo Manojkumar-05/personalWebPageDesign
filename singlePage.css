@@ -6,7 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 10px;
-    cursor: none;
+    /* cursor: none; */
     /* position: relative;    */
 }
 
@@ -539,6 +539,7 @@ header .hamburger.active .bar::after{
     flex-direction: column;
     margin-bottom: 200px;
     max-width: 1200px;
+    align-items: center;
 }
 .contact-items {
     width: 400px;
